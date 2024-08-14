@@ -20,19 +20,19 @@
 ## 🏗️ Project Structure
 
 root/
-├── configuration/
-├── middleware/
-├── models/
-│ ├── repository/
-│ │ └── base/
-│ └── schema/
-├── src/
-└── utils/
-├── dto/
-├── filters/
-├── logger/
-├── responses/
-└── validators/
+├── configuration/  
+├── middleware/  
+├── models/  
+│ ├── repository/  
+│ │ └── base/  
+│ └── schema/  
+├── src/  
+└── utils/  
+ ├── dto/  
+ ├── filters/  
+ ├── logger/  
+ ├── responses/  
+ └── validators/
 
 ### Directory Details
 
@@ -76,12 +76,11 @@ Run the Application
 bashCopy# Development mode
 npm run start:dev
 # or
-yarn start:dev
 
 # Production mode
 npm run start:prod
-# or
-yarn start:prod
+
+```
 
 🛣️ API Endpoints
 
@@ -93,19 +92,17 @@ Assign Role to User (Admin only)
 Assign Permission to Role (Admin only)
 Verify Account/Email
 
-For detailed API documentation, run the application and visit /api-docs.
-📚 Documentation
-For more detailed documentation on NestJS, visit https://docs.nestjs.com
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check issues page.
-📜 License
-This project is MIT licensed.
+For detailed API documentation, run the application and visit /api-docs.  
+📚 Documentation  
+For more detailed documentation on NestJS, visit https://docs.nestjs.com  
+🤝 Contributing  
+Contributions, issues, and feature requests are welcome! Feel free to check issues page.  
+📜 License  
+This project is MIT licensed.  
 🙏 Acknowledgements
 
-NestJS
-TypeORM
+NestJS  
+TypeORM  
 PostgreSQL
 
-
 Made with ❤️ by Manish
-```
