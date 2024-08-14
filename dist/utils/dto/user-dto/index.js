@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AssignRolesToUserDto = exports.AssignPermissionsToRoleDto = exports.PermissionReqDto = exports.PermissionResDto = exports.UserResDto = exports.UserReqDto = exports.RoleResDto = exports.RoleReqDto = void 0;
+var role_request_dto_1 = require("./role.request.dto");
+Object.defineProperty(exports, "RoleReqDto", { enumerable: true, get: function () { return role_request_dto_1.RoleReqDto; } });
+var role_response_dto_1 = require("./role.response.dto");
+Object.defineProperty(exports, "RoleResDto", { enumerable: true, get: function () { return role_response_dto_1.RoleResDto; } });
+var user_request_dto_1 = require("./user.request.dto");
+Object.defineProperty(exports, "UserReqDto", { enumerable: true, get: function () { return user_request_dto_1.UserReqDto; } });
+var user_response_dto_1 = require("./user.response.dto");
+Object.defineProperty(exports, "UserResDto", { enumerable: true, get: function () { return user_response_dto_1.UserResDto; } });
+var permission_response_dto_1 = require("./permission.response.dto");
+Object.defineProperty(exports, "PermissionResDto", { enumerable: true, get: function () { return permission_response_dto_1.PermissionResDto; } });
+var permission_request_dto_1 = require("./permission.request.dto");
+Object.defineProperty(exports, "PermissionReqDto", { enumerable: true, get: function () { return permission_request_dto_1.PermissionReqDto; } });
+var assign_permission_to_role_req_dto_1 = require("./assign-permission-to-role.req.dto");
+Object.defineProperty(exports, "AssignPermissionsToRoleDto", { enumerable: true, get: function () { return assign_permission_to_role_req_dto_1.AssignPermissionsToRoleDto; } });
+var assign_roles_to_user_dto_1 = require("./assign-roles-to-user.dto");
+Object.defineProperty(exports, "AssignRolesToUserDto", { enumerable: true, get: function () { return assign_roles_to_user_dto_1.AssignRolesToUserDto; } });
+//# sourceMappingURL=index.js.map
